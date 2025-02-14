@@ -158,3 +158,43 @@ body {
   background: #5a1e88;
   transform: translateY(-5px);
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    width: 100%;
+  }
+
+  .nav-left {
+    width: 30%;
+  }
+
+  .nav-right {
+    width: 45%;
+  }
+
+  .nav-center {
+    display: none;
+  }
+
+  .Main {
+    flex-direction: column;
+    height: auto;
+
+  }
+
+  .main-left {
+    width: 100%;
+    padding: 0px;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .main-right {
+    width: 100%;
+    margin: 0px;
+
+    padding: 0px;
+  }
+}

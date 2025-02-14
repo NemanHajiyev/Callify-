@@ -12,7 +12,6 @@ function App() {
   const handleClose = () => setOpen(false);
   //
   const navigate = useNavigate();
-
   const startCall = () => {
     navigate('./call')
   }
