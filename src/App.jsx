@@ -4,13 +4,19 @@ import image from './Images/image.png';
 import { useState } from 'react';
 import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
+import { useNavigate } from 'react-router-dom';
 
 function App() {
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
+  //
+  const navigate = useNavigate();
 
-  const startCall = () => { }
+  const startCall = () => {
+    navigate('./call')
+  }
+
   const style = {
     position: 'absolute',
     top: '50%',
@@ -21,6 +27,7 @@ function App() {
     boxShadow: 24,
     p: 4,
   };
+
   return (
     <div className='App'>
       <nav className='navbar'>
