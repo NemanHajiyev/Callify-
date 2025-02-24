@@ -85,11 +85,10 @@ function App() {
               If you're in a larger group, mute your microphone when you're not talking to reduce background noise.
               <br /><br />
               4. Keep distractions to a minimum.
-              For the best video call experience, avoid multitasking or using your phone during the conversation. Stay focused!
+              For the best video call experience, avoid multitasking or using your phone during the conversation. Stay focused
             </p>
           </Box>
         </Modal>
-
       </main>
     </div>
   )
